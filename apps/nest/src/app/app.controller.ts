@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
 import console = require('console');
-import { savePlant } from '../dto/saveplant';
+import { savePlant } from '../dto/plant.dto';
 
 import { AppService } from './app.service';
 
